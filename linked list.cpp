@@ -37,5 +37,9 @@ int main(){
 		printf("%d ",first->value);
 		first=first->next; // updates first to point to the next node in the chain
 	}
+	// time complexity: O(n) as we:
+	//Start at the head.
+	//Traverse the entire list to find the last node.
+	//Attach the new node.
 	return 0;
 }
